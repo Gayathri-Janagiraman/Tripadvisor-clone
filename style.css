@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-body{
+body,html{
     font-family: "Poppins", sans-serif;
     overflow-x: hidden;
 }
@@ -515,16 +515,24 @@ li{
     .front__image, .sponsered__image__one{
         width: 80%;
     }
+    .navbar__s1{
+        position: relative;
+        left: 35px;
+    }
+    .list{
+        position: relative;
+        left:5px;
+    }
     .list, .navbar__s2,.imgpara,.imgpara__two{
         font-size: 13px;
     }
-    .partnership__box,.partnership__two__s1,.cash__s1, .country__s1{
+    .partnership__box,.partnership__two__s1,.cash__s1, .country__s1,.navbar__s2{
         display: none;
     }
     .picture__card__para, .tour__para, .destination__para{
         margin-left: 40px;
     }
-    .footer__section2, .footer__s4,.triplogo,.more{
+    .footer__section2, .footer__s4,.triplogo,.searchbar__s1{
         display: none;
     }
     .logo__img{
@@ -536,3 +544,4 @@ li{
         margin-top: 60px;
     }
 }
+
